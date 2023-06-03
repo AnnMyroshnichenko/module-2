@@ -55,12 +55,18 @@ h1 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  #section1,
-  #section2 {
-    width: 46%;
+  #section1 {
+    width: 47%;
     float: left;
     margin: 2%;
   }
+
+  #section2 {
+    width: 47%;
+    float: left;
+    margin-left: 0;
+  }
+
   #section3 {
     clear: both;
     width: 96%;
