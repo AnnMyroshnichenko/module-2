@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section > p {
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 1.75em;
+}
+
+.menu-section {
+  background-color: gainsboro;
+  border: 1px solid black;
+  width: 400px;
+  margin: 15px;
+}
+
+.title {
+  border: 1px solid black;
+  padding: 5px;
+  width: 29%;
+  text-align: center;
+  position: relative;
+  left: 71%;
+  font-size: 1.25em;
+}
+
+#title1 {
+  background-color: lightgreen;
+}
+
+#title2 {
+  background-color: coral;
+}
+
+#title3 {
+  background-color: lightblue;
+}
+
+@media (min-width: 992px) {
+  .menu-section {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #section1,
+  #section2 {
+    width: 46%;
+    float: left;
+    margin: 2%;
+  }
+  #section3 {
+    clear: both;
+    width: 96%;
+    margin: 2%;
+  }
+  #title3 {
+    width: 15%;
+    position: relative;
+    left: 85%;
+  }
+}
+
+@media (max-width: 767px) {
+  .menu-section {
+    width: 92%;
+    margin: 4%;
+  }
+}
